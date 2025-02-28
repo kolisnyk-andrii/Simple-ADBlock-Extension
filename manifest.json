@@ -1,0 +1,31 @@
+{
+    "name": "WHERE IS THE ADS?",
+    "version": "0.2",
+    "manifest_version": 2,
+    "description": "Hi, i am ad bloker. And i want to BLOCK all ads)",
+    "permissions":
+    [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background":
+    {
+        "scripts":
+        [
+            "content.js"
+        ]
+    },
+    "icons":
+    {
+        "16": "icon/icon16.png",
+        "32": "icon/icon32.png",
+        "48": "icon/icon48.png",
+        "128": "icon/icon128.png"
+    },
+    "browser_action":
+    {
+        "default_popup": "popup.html",
+        "default_title": "WHERE IS THE ADS?"
+    }
+}
